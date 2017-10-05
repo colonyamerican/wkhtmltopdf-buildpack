@@ -6,7 +6,8 @@ BIN_PATH="$1/bin"
 TMP_PATH="$1/tmp"
 mkdir -p $BIN_PATH $TMP_PATH
 
-WKHTMLTOPDF_URL="https://cah-buildpacks.s3.amazonaws.com/cedar-14/wkhtmltox-0.12.2.1_linux-trusty-amd64.deb"
+# WKHTMLTOPDF_URL="https://cah-buildpacks.s3.amazonaws.com/cedar-14/wkhtmltox-0.12.2.1_linux-trusty-amd64.deb"
+WKHTMLTOPDF_URL="https://cah-buildpacks.s3.amazonaws.com/cedar-14/wkhtmltox-0.12.4_linux-amd64.deb"
 WKHTMLTOPDF_PKG="$TMP_PATH/wkhtmltopdf.deb"
 WKHTMLTOPDF_PATH="$TMP_PATH/wkhtmltopdf"
 WKHTMLTOPDF_BINARIES="$WKHTMLTOPDF_PATH/usr/local/bin"
